@@ -1,3 +1,5 @@
+const doulas = require('./data/doulas')
+
 module.exports = {
   files: {
     javascripts: {
@@ -14,6 +16,11 @@ module.exports = {
     sass: {
       options: {
         includePaths: ['node_modules/bootstrap-sass/assets/stylesheets']
+      }
+    },
+    jade: {
+      locals: {
+        foo: doulas
       }
     }
   }
