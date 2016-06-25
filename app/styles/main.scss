@@ -82,7 +82,7 @@ footer img {
 #homepage {
   height: 280px;
   background: black;
-  background-image: url('/_themes/band/img/headerimage.jpg');
+  background-image: url('/images/headerimage.jpg');
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
@@ -94,6 +94,7 @@ footer img {
   font-size: 40px;
   text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.35);
   color: #FFFFFF;
+  width: 50%;
 }
 
 #contentArea {
