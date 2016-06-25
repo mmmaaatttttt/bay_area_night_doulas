@@ -1,1 +1,261 @@
-@import 'bootstrap'
+@import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px; 
+  background:rgba(50,8,51,0.6); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+/* header */
+
+header, footer {
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+  float: left;
+  width: 250px;
+  padding: 8px 0;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+#header-nav {
+  margin-top: 20px;
+}
+
+#header-nav > li > a {
+  float: right;
+  padding: 10px;
+  color: #461C21;
+}
+
+#header-nav > li > a:hover {
+  border-radius: 5px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -74px;
+}
+
+.footer, .push {
+  height: 74px;
+}
+
+/* footer */
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  float: left;
+  line-height: 3.3;
+}
+
+footer img {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/* homepage */
+
+#homepage {
+  height: 280px;
+  background: black;
+  background-image: url('/_themes/band/img/headerimage.jpg');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+#mainText {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 55px;
+  padding-left: 100px;
+  font-size: 40px;
+  text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.35);
+  color: #FFFFFF;
+}
+
+#contentArea {
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* carousel */
+
+.carousel-control {
+  width: 5%;
+  color: rgba(0,0,0,0.5);
+}
+
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active {
+  color: rgb(0,0,0);
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-inner {
+  width: 85%;
+  margin: 0 auto 20px;
+  min-height: 130px;
+  font-style: italic;
+  padding: 0 1px;
+}
+
+#testimonials-carousel {
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+/* general */
+
+.centered {
+  text-align:center;
+}
+
+.baby-image-left, .baby-image-right {
+  width: 33%;
+  border-radius: 5px;
+}
+
+.baby-image-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.baby-image-right {
+  float: right;
+  margin-left: 10px;
+}
+
+
+
+/* About */
+
+.faqrow {
+  margin-bottom: 20px;
+}
+
+.faqrow img {
+  width:100%;
+  margin-bottom:20px;
+  margin-top: 10px;
+}
+
+/* Team */
+
+#image-table td {
+  padding-bottom: 1em;
+  width: 25%;
+}
+
+#image-table tr {
+  vertical-align: top;
+}
+
+#image-table {
+  margin-bottom: 2em;
+}
+
+#lactation-info {
+  margin-bottom: 3em;
+}
+
+#image-table img {
+  width: 95%;
+  padding: 2px;
+  border: 1px solid rgb(131, 131, 131);
+  background-color: white;
+  border-radius: 5px;
+}
+
+#image-table div {
+  color: #656565;
+  padding-top: 2px;
+}
+
+/* resources */
+
+#resource-categories {
+  margin-bottom: 15px;
+}
+
+#resource-categories ul li {
+  padding: 10px;
+  border-radius:5px;
+}
+
+#resource-categories ul li:hover {
+  cursor:pointer;
+}
+
+.active-category {
+  background-color: #557F45 !important;
+  color: #FFF;
+}
+
+#resource-categories ul li:active, #resource-categories ul li:hover {
+  background-color: #88A57D;
+  color: #FFF;
+}
+
+#resource-details ul li {
+  margin-bottom: 20px;
+}
+
+/* contact */
+
+.contact img {
+  width: 100%;
+}
+
+.contact textarea, .contact .formfield input {
+  width: 100%;
+}
+
+.formfield, .carboncopy {
+  margin-bottom: 10px;
+}
+
+#contactform {
+  background: #EEE;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#contactform h3 {
+  margin-top: 0;
+}
+
+#contactform p {
+  margin: 0;
+}
+
+.carboncopy {
+  display: none;
+}
