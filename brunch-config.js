@@ -11,6 +11,10 @@ module.exports = {
 
   plugins: {
     babel: {presets: ['es2015']},
-    // sass: {options: ['--compass']}
+    sass: {
+      options: {
+        includePaths: ['node_modules/bootstrap-sass/assets/stylesheets']
+      }
+    }
   }
 };
