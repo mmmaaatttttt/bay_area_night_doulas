@@ -31,6 +31,9 @@ module.exports = {
       locals: {
         testimonials
       }
-    }
+    },
+    afterBrunch: [
+       'rm -rf public/fonts/bootstrap && mkdir public/fonts/bootstrap && cp node_modules/bootstrap-sass/assets/fonts/bootstrap/* public/fonts/bootstrap'
+     ]
   }
 };

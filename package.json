@@ -12,6 +12,7 @@
     "prod": "brunch build --production"
   },
   "devDependencies": {
+    "after-brunch": "0.0.5",
     "auto-reload-brunch": "^2.0.0",
     "babel-brunch": "~6.0.0",
     "babel-preset-es2015": "~6.3.13",
