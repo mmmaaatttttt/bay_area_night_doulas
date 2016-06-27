@@ -6,3 +6,32 @@ block header_image
 
 block content
   h3.centered WELCOME TO BAY AREA NIGHT DOULAS
+  p We are a group of doulas who have come together to care and support families in the San Francisco Bay Area.
+  p Each member of the Bay Area Night Doulas understands what an incredible responsibility and privilege it is to be hired by a family as their night doula. Each doula brings her own individual skills, and together we offer a wide range of post partum doula services to our clients.
+  p Our comprehensive skill set combined with our professionalism, work ethic, experience and compassion make Bay Area Night Doulas the natural choice for family support.
+  .row
+    .col-sm-6
+      h3.centered WHAT IS A NIGHT DOULA?
+      p The word “Doula” is a Greek word used when describing a woman that will “mother the mother.” The goal of our doula team is to assist the new mother, partner and family in creating a personally fulfilling postpartum experience.
+      p Bay Area Night Doulas are non-medical care providers.
+    .col-sm-6
+      h3.centered OUR SERVICES
+      ul 
+        li Postpartum care
+        li Breastfeeding Support
+        li Sleep Educaation
+        li Infant Massage
+        li Family Adjustment Assistance
+        li Local Resources 
+      p See our <a href="/about">About</a> page for more details on our services. We also offer Lactation Consulstant services; see the <a href="/team">Team</a> page for more information.
+  h3.centered TESTIMONIALS
+  #testimonials-carousel.carousel.slide(data-ride="carousel")
+    .carousel-inner
+      each testimonial, idx in testimonials
+        .item(class={active: idx === 0})
+          p= testimonial.text
+          p.pull-right -#{testimonial.name}
+    a.left.carousel-control(href="#testimonials-carousel" data-slide="prev")
+      span.glyphicon.glyphicon-chevron-left.carousel-button
+    a.right.carousel-control(href="#testimonials-carousel" data-slide="next")
+      span.glyphicon.glyphicon-chevron-right.carousel-button

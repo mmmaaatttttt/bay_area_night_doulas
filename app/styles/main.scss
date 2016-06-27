@@ -33,17 +33,20 @@ header img {
 
 #header-nav {
   margin-top: 20px;
+
+  li > a {
+    float: right;
+    padding: 10px;
+    color: #461C21;
+
+    &:hover {
+      border-radius: 5px;
+    }
+
+  }
+
 }
 
-#header-nav > li > a {
-  float: right;
-  padding: 10px;
-  color: #461C21;
-}
-
-#header-nav > li > a:hover {
-  border-radius: 5px;
-}
 
 html, body {
   height: 100%;
@@ -56,25 +59,27 @@ html, body {
   margin: 0 auto -74px;
 }
 
+
+/* footer */
+
 .footer, .push {
   height: 74px;
 }
 
-/* footer */
-
 footer {
   padding-top: 10px;
   padding-bottom: 10px;
+
+  img {
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+
 }
 
 .copyright {
   float: left;
   line-height: 3.3;
-}
-
-footer img {
-  margin-right: 10px;
-  border-radius: 4px;
 }
 
 /* homepage */
@@ -153,8 +158,6 @@ footer img {
   margin-left: 10px;
 }
 
-
-
 /* About */
 
 .faqrow {
@@ -169,49 +172,52 @@ footer img {
 
 /* Team */
 
-#image-table td {
-  padding-bottom: 1em;
-  width: 25%;
-}
-
-#image-table tr {
-  vertical-align: top;
-}
-
 #image-table {
   margin-bottom: 2em;
+
+  td {
+    padding-bottom: 1em;
+    width: 25%;
+  }
+
+  td {
+    vertical-align: top;
+  }
+
+  img {
+    width: 95%;
+    padding: 2px;
+    border: 1px solid rgb(131, 131, 131);
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  div {
+    color: #656565;
+    padding-top: 2px;
+  }
+
 }
 
 #lactation-info {
   margin-bottom: 3em;
 }
 
-#image-table img {
-  width: 95%;
-  padding: 2px;
-  border: 1px solid rgb(131, 131, 131);
-  background-color: white;
-  border-radius: 5px;
-}
-
-#image-table div {
-  color: #656565;
-  padding-top: 2px;
-}
-
 /* resources */
 
 #resource-categories {
   margin-bottom: 15px;
-}
 
-#resource-categories ul li {
-  padding: 10px;
-  border-radius:5px;
-}
+  ul li {
+    padding: 10px;
+    border-radius:5px;
 
-#resource-categories ul li:hover {
-  cursor:pointer;
+    &:hover {
+      cursor:pointer;
+    }
+
+  }
+
 }
 
 .active-category {

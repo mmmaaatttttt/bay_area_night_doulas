@@ -1,4 +1,5 @@
 const doulas = require('./data/doulas')
+const testimonials = require('./data/testimonials')
 
 module.exports = {
   files: {
@@ -6,9 +7,17 @@ module.exports = {
       joinTo: {
         'vendor.js': /^(?!app)/,
         'app.js': /^app/
+      },
+      order: {
+        before: /jquery/g
       }
     },
-    stylesheets: {joinTo: 'app.css'}
+    stylesheets: {
+      joinTo: {
+        'vendor.css': /^node_modules/,
+        'app.css': /^app/
+      }
+    },
   },
 
   plugins: {
@@ -20,7 +29,7 @@ module.exports = {
     },
     jade: {
       locals: {
-        foo: doulas
+        testimonials
       }
     }
   }
