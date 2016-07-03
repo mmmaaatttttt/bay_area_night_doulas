@@ -9,42 +9,15 @@ html(lang='en')
       title Bay Area Night Doulas
     link(rel='stylesheet', href='/app.css')
   body
-    header.navbar
-      .navbar-inner
-        .container-fluid
-          a(href='/')
-            img(src='/images/logo.jpg' alt="Bay Area Night Doulas")
-          nav
-            ul#header-nav.nav
-              li
-                a(href='/contact') CONTACT
-              li
-                a(href='/resources') RESOURCES
-              li
-                a(href='/team') TEAM
-              li
-                a(href='/about') ABOUT
-    block header_image
-    .container-fluid
-      .row
-        #contentArea.col-sm-10.col-sm-offset-1
-          block content
-    .push
-    footer.navbar
-      .navbar-inner
-        .container-fluid
-          .copyright
-            | Bay Area Night Doulas ©
-            | #{ new Date().getFullYear() }.
-            | All rights reserved.
-          nav
-            .pull-right
-              a(href='https://www.facebook.com/pages/Bay-Area-Night-Doulas/285623904839261')
-                img(src='/images/fbooklogo.png')
-              a(href='http://www.yelp.com/biz/bay-area-night-doulas-san-francisco')
-                img(src='/images/yelplogo.png')
-    script(src='/vendor.js')
-    script(src='/app.js')
-    script.
-      require('initialize');
-    block custom_js 
+    #wrapper
+      include _navbar.jade
+      block header_image
+      .container-fluid
+        .row
+          #contentArea.col-sm-10.col-sm-offset-1
+            block content
+      include _footer.jade
+      script(src='/vendor.js')
+      script(src='/app.js')
+      script.
+        require('initialize');
