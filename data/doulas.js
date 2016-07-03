@@ -1,1 +1,38 @@
-module.exports = [1,2,3]
+module.exports = [
+  {
+    name: 'Noreen McCarthy',
+  }, {
+    name: 'Joan Sheehan Canning',
+  }, {
+    name: 'Tara Carolan',
+  }, {
+    name: 'Denise Montwill',
+  }, {
+    name: 'Tina Faherty',
+  }, {
+    name: 'Julieann Faherty',
+  }, {
+    name: 'Marie Buckley',
+  }, {
+    name: 'Jenette Francis', 
+  }, {
+    name: 'Ita Walsh',
+  }, {
+    name: 'Frances Weekes',
+  }, {
+    name: 'Martina Smolova',
+  }, {
+    name: 'Veronica White',
+  }, {
+    name: 'Caitlin Connolly',
+  }, {
+    name: 'Melissa Koning',
+  }, {
+    name: 'Meg Lane',
+  }, {
+    name: 'Grace Koinange',
+  }, {
+    name: 'Gillian Arundel',
+    info: 'Lactation Consultant, IBCLC Email: gilliancroke[at]hotmal.com Tel: (415) 823-3774'
+  }
+];
