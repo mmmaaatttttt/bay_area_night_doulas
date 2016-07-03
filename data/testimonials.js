@@ -12,4 +12,4 @@ module.exports = [
     name: "Katharine & Jacob",
     text: "My Doula was superb. Everything from breastfeeding support, gentle baby care and advice. My husband was so impressed how she gently guided him through changing his first diaper to burping and soothing our son. Superb service from our Doula."
   }
-]
+];

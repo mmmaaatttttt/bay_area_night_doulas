@@ -1,7 +1,23 @@
 extends ./layout.jade
 
 block content
-  h3 LOCAL RESOURCES
+  h3.centered LOCAL RESOURCES
   .row
     #resource-categories.col-xs-4
-      .nav.nav-pills.nav-stacked
+      ul.nav.nav-pills.nav-stacked
+        each resource in resources
+          li= resource.name
+    #resource-details.col-xs-8
+      each resource in resources
+        ul 
+          each option in resource.options
+            li
+              if option.url
+                a(href=option.url target="_blank")= option.name
+              else
+                p= option.name
+              if option.phone
+                p Call: #{option.phone}
+//- block custom_js
+//-   script.
+//-     require('javascripts/resources');

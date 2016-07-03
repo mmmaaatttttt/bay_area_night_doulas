@@ -1,10 +1,10 @@
 module.exports = [
   {
-    resource: 'Baby Photography'
+    name: 'Baby Photography',
     options: [
       {
         name: 'Martina Smolova - B.A.N.D member',
-        phone: '925 330 5509'
+        phone: '925 330 5509',
         url: 'http://www.martinasmolovaphotography.com'
       }, {
         name: 'Danielle Elizabeth',
@@ -13,7 +13,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Bereaved Family Support',
+    name: 'Bereaved Family Support',
     options: [
       {
         name: 'Hand on the Peninsula',
@@ -22,7 +22,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Birth Doulas/Midwives',
+    name: 'Birth Doulas/Midwives',
     options: [
       {
         name: 'San Francisco Doula Group',
@@ -35,7 +35,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Breastfeeding Support',
+    name: 'Breastfeeding Support',
     options: [
       {
         name: 'Gillian Croke, IBCLC - B.A.N.D. member',
@@ -52,7 +52,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Chiropractor',
+    name: 'Chiropractor',
     options: [
       {
         name: 'Laura Sheehan',
@@ -61,7 +61,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Families with Disabilities',
+    name: 'Families with Disabilities',
     options: [
       {
         name: 'Looking Glass',
@@ -70,7 +70,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Giving Back',
+    name: 'Giving Back',
     options: [
       {
         name: 'Help a Mother Out',
@@ -83,7 +83,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Hypnobirthing',
+    name: 'Hypnobirthing',
     options: [
       {
         name: 'Kathy Woo',
@@ -96,7 +96,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Multiple Birth Groups',
+    name: 'Multiple Birth Groups',
     options: [
       {
         name: 'San Francisco Parents of Multiples',
@@ -117,7 +117,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Newborn Resources and Education',
+    name: 'Newborn Resources and Education',
     options: [
       {
         name: 'Day One Baby', 
@@ -126,14 +126,14 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Parent Groups',
+    name: 'Parent Groups',
     options: [
       {
         name: 'Golden Gate Mother\'s Group',
         phone: '',
         url: 'http://www.ggmg.com'
       }, {
-        name: 'East Bay Mom\'s Group'
+        name: 'East Bay Mom\'s Group',
         phone: '',
         url: 'http://www.eastbaymoms.com'
       }, {
@@ -155,7 +155,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Postpartum Support',
+    name: 'Postpartum Support',
     options: [
       {
         name: 'Mama Tong Soups',
@@ -180,7 +180,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Preemie Support',
+    name: 'Preemie Support',
     options: [
       {
         name: 'The Graham Foundation',
@@ -189,11 +189,11 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Pregnancy, Parent Support, and Classes',
+    name: 'Pregnancy, Parent Support, and Classes',
     options: [
       {
         name: 'Day One Center',
-        phone: '415 440 3291 (San Francisco) / 650 322 3291 (Palo Alto)'
+        phone: '415 440 3291 (San Francisco) / 650 322 3291 (Palo Alto)',
         url: 'http://www.dayonecenter.com'
       }, {
         name: 'Urban Recess',
@@ -214,7 +214,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Sleep Specialists',
+    name: 'Sleep Specialists',
     options: [
       {
         name: 'Angelique Millette',
@@ -227,7 +227,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Suggested Reading',
+    name: 'Suggested Reading',
     options: [
       {
         name: 'The Womanly Art of Breastfeeding - La Leche League International',
@@ -248,7 +248,7 @@ module.exports = [
       }
     ]
   }, {
-    resource: 'Yoga Classes',
+    name: 'Yoga Classes',
     options: [
       {
         name: 'The Mindful Body',
@@ -261,4 +261,4 @@ module.exports = [
       }
     ]
   }
-]
+];

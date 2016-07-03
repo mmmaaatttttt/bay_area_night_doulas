@@ -230,10 +230,15 @@ footer {
   color: #FFF;
 }
 
-#resource-details ul li {
-  margin-bottom: 20px;
-}
+#resource-details ul {
+  
+  display: none;
 
+  li {
+    margin-bottom: 20px;
+  }
+
+}
 /* contact */
 
 .contact img {

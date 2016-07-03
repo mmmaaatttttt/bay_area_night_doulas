@@ -1,5 +1,6 @@
-const doulas = require('./data/doulas')
-const testimonials = require('./data/testimonials')
+const doulas = require('./data/doulas');
+const testimonials = require('./data/testimonials');
+const resources = require('./data/resources');
 
 module.exports = {
   files: {
@@ -29,7 +30,8 @@ module.exports = {
     },
     jade: {
       locals: {
-        testimonials
+        testimonials,
+        resources
       }
     },
     afterBrunch: [
