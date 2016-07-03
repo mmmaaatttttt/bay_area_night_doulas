@@ -33,6 +33,6 @@ module.exports = [
     name: 'Grace Koinange',
   }, {
     name: 'Gillian Arundel',
-    info: 'Lactation Consultant, IBCLC Email: gilliancroke[at]hotmal.com Tel: (415) 823-3774'
+    info: 'Lactation Consultant, IBCLC\nEmail: gilliancroke[at]hotmal.com\nTel: (415) 823-3774'
   }
 ];

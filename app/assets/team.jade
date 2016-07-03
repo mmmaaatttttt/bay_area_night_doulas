@@ -1,3 +1,15 @@
 extends ./layout.jade
 
 block content
+  h3.centered MEET THE TEAM
+  p We are a group of professionally trained night doulas that provide non-judgmental and nurturing care to mothers and their families in the San Francisco Bay Area. We offer our clients practical advice about what will work best for their families while recognizing the unique needs of each client. There can be many struggles during the first few months with a newborn; we are able to offer care and support with breastfeeding, colic, and sleep, all based on evidence-backed modern research.
+  p Noreen McCarthy, who has cared for and supported Bay Area families for over 10 years, created Bay Area Night Doulas as a reputable group of professionals that offer the highest level of care.
+  .row#image-table
+    each doula in doulas
+      .col-sm-3
+        img(src="./images/doulas/#{doula.name.replace(/\s/g,'_')}_t.jpg")
+        p= doula.name
+        if doula.info
+          ul
+            each line in doula.info.split("\n")
+              li= line

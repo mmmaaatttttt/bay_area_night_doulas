@@ -31,7 +31,8 @@ module.exports = {
     jade: {
       locals: {
         testimonials,
-        resources
+        resources,
+        doulas
       }
     },
     afterBrunch: [
