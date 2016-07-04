@@ -2,17 +2,9 @@ module.exports = [
   {
     name: 'Noreen McCarthy',
   }, {
-    name: 'Joan Sheehan Canning',
-  }, {
     name: 'Tara Carolan',
   }, {
     name: 'Denise Montwill',
-  }, {
-    name: 'Tina Faherty',
-  }, {
-    name: 'Julieann Faherty',
-  }, {
-    name: 'Marie Buckley',
   }, {
     name: 'Jenette Francis', 
   }, {
