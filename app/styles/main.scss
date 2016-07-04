@@ -171,15 +171,6 @@ html, body {
 #image-table {
   margin-bottom: 2em;
 
-  td {
-    padding-bottom: 1em;
-    width: 25%;
-  }
-
-  td {
-    vertical-align: top;
-  }
-
   img {
     width: 100%;
     padding: 2px;
@@ -188,9 +179,17 @@ html, body {
     border-radius: 5px;
   }
 
-  div {
+  p, li {
     color: #656565;
     padding-top: 2px;
+    list-style-type: none;
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      font-size: 0.9em;
+    }
   }
 
 }
