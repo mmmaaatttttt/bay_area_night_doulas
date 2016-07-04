@@ -185,7 +185,15 @@ module.exports = [
       {
         name: 'The Graham Foundation',
         phone: '',
-        url: 'http://www.grahamfoundation.org'
+        url: 'http://www.grahamsfoundation.org/'
+      }, {
+        name: 'Preemie Parent Resources | Mamas on Bedrest & Beyond',
+        phone: '',
+        url: 'http://mamasonbedrest.com/resources/preemie-parent-resources/'
+      }, {
+        name: 'Parent\'s Guide to NICU |CPMC San Francisco',
+        phone: '',
+        url: 'http://www.cpmc.org/services/pregnancy/information/nicugde.html'
       }
     ]
   }, {
