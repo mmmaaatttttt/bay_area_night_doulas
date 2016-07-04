@@ -98,6 +98,25 @@ html, body {
   width: 50%;
 }
 
+@media (max-width: 965px) {
+  #mainText {
+    padding-right: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  #mainText {
+    padding: 55px 20px;
+    width: 100%;
+  }
+
+  #homepage {
+    height: auto;
+    background-position: bottom right;
+  }
+}
+
 #content-area {
   border-radius: 10px;
   background: #fff;
